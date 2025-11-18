@@ -13,7 +13,7 @@ export default function Login() {
     baloo:require("../assets/fonts/static/Baloo2-ExtraBold.ttf"),
 });
   const handleSubmit=()=>{
-    alert(name);
+    // alert(name);
     if(!name.trim()) return;
     navigation.navigate("Ai",{name});
   };

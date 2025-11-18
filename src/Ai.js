@@ -57,7 +57,7 @@ export default function Ai({ route, navigation }) {
   {isSpeakingDone && (
     <TouchableOpacity
       style={styles.button}
-      onPress={() => navigation.navigate("Home")}
+      onPress={() => navigation.navigate("Classroom")}
     >
       <Text style={styles.buttonText}>Continue</Text>
     </TouchableOpacity>
